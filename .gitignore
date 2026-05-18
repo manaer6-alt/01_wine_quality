@@ -1,0 +1,27 @@
+﻿# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project generated artifacts
+data/processed/
+models/
+reports/figures/
+
+# Serialized models
+*.joblib
+*.pkl
